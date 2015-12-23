@@ -18,7 +18,7 @@ You can either clone this repo or install it from npm:
 npm install natural-synaptic --save
 ```
 
-### Training and Testing
+### Training and Classifying
 ```javascript
 var classifier = new NaturalSynaptic();
 
