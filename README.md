@@ -1,7 +1,7 @@
 # natural-synaptic
 A natural language classifier for [Node Natural](https://github.com/NaturalNode/natural) using a [Synaptic](https://github.com/cazala/synaptic) neural network.
 
-This project was inspired by [Natural Brain](https://github.com/daffl/natural-brain), which is based one a [BrainJS](https://github.com/harthur/brain) neural network. The reason for the re-write is that BrainJS is currently unmaintained (see [issue](https://github.com/harthur/brain/issues/72)).
+This project was inspired by [Natural Brain](https://github.com/daffl/natural-brain), which is based on a [BrainJS](https://github.com/harthur/brain) neural network. The reason for the re-write is that BrainJS is currently unmaintained (see [issue](https://github.com/harthur/brain/issues/72)).
 
 Note: This classifier passes the same tests as the [Node Natural Bayes classifier](https://github.com/NaturalNode/natural/blob/a79254585f2e381378f788de5168f6a906e037e8/spec/bayes_classifier_spec.js).
 
