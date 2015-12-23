@@ -1,4 +1,6 @@
 # natural-synaptic
+[![Circle CI](https://circleci.com/gh/nemo/natural-synaptic/tree/master.svg?style=svg)](https://circleci.com/gh/nemo/natural-synaptic/tree/master)
+
 A natural language classifier for [Node Natural](https://github.com/NaturalNode/natural) using a [Synaptic](https://github.com/cazala/synaptic) neural network.
 
 This project was inspired by [Natural Brain](https://github.com/daffl/natural-brain), which is based on a [BrainJS](https://github.com/harthur/brain) neural network. The reason for the re-write is that BrainJS is currently unmaintained (see [issue](https://github.com/harthur/brain/issues/72)).
@@ -7,6 +9,16 @@ Note: This classifier passes the same tests as the [Node Natural Bayes classifie
 
 
 ## Usage
+
+### Installing
+
+You can either clone this repo or install it from npm:
+
+```
+npm install natural-synaptic --save
+```
+
+### Training and Testing
 ```javascript
 var classifier = new NaturalSynaptic();
 
