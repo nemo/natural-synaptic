@@ -7,6 +7,10 @@
     "test": "mocha test/ --recursive"
   },
   "author": "Nima Gardideh <nima@halfmoon.ws>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nemo/natural-synaptic.git"
+  },
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.2",
