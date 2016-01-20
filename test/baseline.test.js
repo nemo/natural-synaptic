@@ -119,8 +119,8 @@ describe('Natural Language classifier', function() {
 
       classifier.train();
 
-      classifier.save('test/brain_classifier.json', function() {
-        NaturalSynaptic.load('test/brain_classifier.json', null,
+      classifier.save('test/classifier.json', function() {
+        NaturalSynaptic.load('test/classifier.json', null,
           function(err, newClassifier){
             newClassifier.addDocument('kick a ball', 'sports');
             newClassifier.addDocument('hit some balls', 'sports');

@@ -1,6 +1,6 @@
 {
   "name": "natural-synaptic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Natural Language Classifier",
   "main": "lib/index.js",
   "scripts": {
