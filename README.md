@@ -20,6 +20,7 @@ npm install natural-synaptic --save
 
 ### Training and Classifying
 ```javascript
+var NaturalSynaptic = require('natural-synaptic');
 var classifier = new NaturalSynaptic();
 
 classifier.addDocument('my unit-tests failed.', 'software');
@@ -40,7 +41,7 @@ console.log(classifier.classify('Can you play some stuff?')); // -> music
 
 ## Load/Reload from file
 ```javascript
-
+var NaturalSynaptic = require('natural-synaptic');
 var classifier = new NaturalSynaptic();
 
 classifier.addDocument('my unit-tests failed.', 'software');
